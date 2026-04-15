@@ -1,0 +1,257 @@
+body.opening-page {
+    background-color: #cdbb9a;
+    color: #3b2f24;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.opening-container {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px 40px 40px;
+    box-sizing: border-box;
+    background-color: #efe2c2;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 4px 18px rgba(60, 40, 20, 0.25);
+}
+
+.opening-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.opening-title {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size: 4rem;
+    font-weight: normal;
+    color: #2f241b;
+    text-align: center;
+    margin: 0;
+}
+
+.opening-subtitle {
+    margin-top: 18px;
+    font-size: 1.2rem;
+    color: #6f5a43;
+    font-family: Garamond, "Times New Roman", serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.opening-dedication {
+    max-width: 760px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #4a3a2c;
+    margin-bottom: 10px;
+}
+body {
+    background-color: #cdbb9a;
+    color: #3b2f24;
+    font-family: Garamond, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-family: Garamond, "Baskerville Old Face", "Times New Roman", serif;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 28px;
+    color: #2f241b;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 780px;
+    height: auto;
+    margin: 0 auto 28px auto;
+    border: 6px solid #d8c29a;
+    box-shadow: 0 2px 10px rgba(50, 35, 20, 0.2);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    text-align: center;
+    margin-bottom: 28px;
+    color: #3f3125;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #8b6b3f;
+    color: #f7f0df;
+    border: 1px solid #6e522f;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #76562f;
+    }
+.button-link {
+    display: block;
+    width: fit-content;
+    margin: 24px auto 0;
+    padding: 10px 24px;
+    background-color: #d8c29a;
+    color: #3b2f24;
+    text-decoration: none;
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 1.05rem;
+    border: 1px solid #9f8258;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(60, 40, 20, 0.12);
+    transition: all 0.2s ease;
+}
+
+    .button-link:hover {
+        background-color: #cdb082;
+        color: #2c2219;
+    }
+
+body.game-page {
+    background-color: #cdbb9a;
+    color: #3b2f24;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.game-container {
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 48px 42px;
+    background-color: #efe2c2;
+    box-shadow: 0 4px 18px rgba(60, 40, 20, 0.25);
+    border: 1px solid #b89f72;
+    box-sizing: border-box;
+}
+
+.scene-label {
+    text-align: center;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #7b644a;
+    margin-bottom: 8px;
+}
+
+.scene-title {
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 0 0 10px 0;
+    color: #2f241b;
+    font-family: Garamond, "Baskerville Old Face", "Times New Roman", serif;
+}
+
+.scene-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #6e5943;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+.image-frame {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.scene-image {
+    display: none;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 0 auto;
+    border: 6px solid #d8c29a;
+    box-shadow: 0 2px 10px rgba(50, 35, 20, 0.2);
+}
+
+.scene-caption {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #6e5943;
+}
+
+.scene-text {
+    font-size: 1.12rem;
+    line-height: 1.8;
+    color: #3f3125;
+}
+
+    .scene-text p {
+        margin-bottom: 18px;
+    }
+
+.choices {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    align-items: center;
+}
+
+    .choices button,
+    .choices a,
+    .button-link {
+        display: inline-block;
+        padding: 12px 26px;
+        background-color: #d8c29a;
+        color: #3b2f24;
+        text-decoration: none;
+        font-family: Garamond, "Times New Roman", serif;
+        font-size: 1.05rem;
+        border: 1px solid #9f8258;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(60, 40, 20, 0.12);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+
+        .choices button:hover,
+        .choices a:hover,
+        .button-link:hover {
+            background-color: #cdb082;
+            color: #2c2219;
+        }
+
+.continue-hint {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #7a6248;
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
+}
+.copyright-note {
+    margin-top: 40px;
+    max-width: 760px;
+    text-align: center;
+    font-size: 0.612rem;
+    line-height: 1.6;
+    color: #6f5a43;
+}
