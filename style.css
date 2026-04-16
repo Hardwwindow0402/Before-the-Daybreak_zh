@@ -177,14 +177,28 @@ body.game-page {
     text-align: center;
 }
 
-.scene-image {
-    display: none;
+.game-container.chapter .scene-image {
+    display: block;
     width: 100%;
     max-width: 720px;
     height: auto;
     margin: 0 auto;
-    border: 6px solid #d8c29a;
-    box-shadow: 0 2px 10px rgba(50, 35, 20, 0.2);
+}
+
+.game-container.content .scene-image {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.game-container.ending .scene-image {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .scene-caption {
