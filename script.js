@@ -6,7 +6,7 @@
         subtitle: "",
         caption: "",
         hint: "",
-        image: "images/chapters/clinton.png",
+        image: "images/chapters/clinton.jpg",
         text: [
             "那是旧金山诺布山区克林顿高中的普通一晚。",
             "晚上7点20分。一切看似正常。"
@@ -353,7 +353,7 @@
         subtitle: "",
         caption: "",
         hint: "",
-        image: "images/chapters/corridor.png",
+        image: "images/chapters/corridor.jpg",
         text: [
             `你成功活着走出了体育馆。
             但危险远未结束……`
@@ -661,7 +661,7 @@
      ch2_c6_1: {
      type: "content",
      label: "第二章",
-     image: "images/contents/kenbont.png",
+     image: "images/contents/kenbont.jpg",
      title: "",
      subtitle: "",
      caption: "",
@@ -727,7 +727,7 @@
         subtitle: "",
         caption: "",
         hint: "黎明之前：逃离克林顿",
-        image: "images/endings/e_1.png",
+        image: "images/endings/e_1.jpg",
         text: [
             `一股温热的感觉蔓延全身。之后，你什么都不记得了。
 
@@ -747,7 +747,7 @@
         subtitle: "",
         caption: "",
         hint: "黎明之前：逃离克林顿",
-        image: "images/endings/e_2.png",
+        image: "images/endings/e_2.jpg",
         text: [
             `终于，你看到了学校外面的路灯。
 
